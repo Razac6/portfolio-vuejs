@@ -2,32 +2,29 @@
   <div class="hello">
     <section class="home"></section>
      <about></about> 
-    <section class="skills"></section>
-    <section class="footer"></section>
-
+    <skills></skills>
+    <app-footer></app-footer>
   </div>
 </template>
 <script>
-import About from './About.vue';
+
+import About from './app-about.vue';
+import Skills from './app-skills.vue';
+import AppFooter from './app-footer.vue';
+
 export default {
   components: {
-    About
+    About,
+    Skills,
+    AppFooter
   },
-  name: "Home"
+  name: "app-home"
 };
 </script>
 <style lang="scss" scoped>
 section {
   &.home {
     background-color: #efcb7b;
-  }
-  &.skills {
-    background-color: #ece7de;
-  }
-
-  &.footer {
-    background-color: #7115d8;
-    height: 200px;
   }
   width: 100%;
   height: 100vh;

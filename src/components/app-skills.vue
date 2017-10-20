@@ -1,17 +1,17 @@
 <template>
-      <section class="about"></section>
+      <section class="skills"></section>
 </template>
 
 <script>
 export default {
-  name: 'About'
-}
+  name: "app-skills"
+};
 </script>
 <style lang="scss" scoped>
-section.about {
+section.skills {
   width: 100%;
   height: 100vh;
-  background-color: #24262d;
+  background-color: #ece7de;
   color: #fff;
 }
 </style>
