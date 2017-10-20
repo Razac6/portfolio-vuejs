@@ -1,21 +1,17 @@
 <template>
-  <div class="about">
-    <section class="about">
-    </section>
-  </div>
+      <section class="about"></section>
 </template>
+
 <script>
 export default {
-  name: 'About',
+  name: 'About'
 }
 </script>
-<style scoped>
-
-section.about{
+<style lang="scss" scoped>
+section.about {
   width: 100%;
   height: 100vh;
-  background-color: #efcb7b;
+  background-color: #24262d;
   color: #fff;
 }
-
 </style>

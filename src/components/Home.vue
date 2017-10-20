@@ -1,32 +1,36 @@
 <template>
   <div class="hello">
-    <section class="home">
-    </section>
-        <section class="about">
-    </section>
-            <section class="skills">
-    </section>
+    <section class="home"></section>
+     <about></about> 
+    <section class="skills"></section>
+    <section class="footer"></section>
+
   </div>
 </template>
 <script>
+import About from './About.vue';
 export default {
-  name: 'Home'
-}
+  components: {
+    About
+  },
+  name: "Home"
+};
 </script>
 <style lang="scss" scoped>
-
-section{
-  &.home{
+section {
+  &.home {
     background-color: #efcb7b;
   }
-  &.about{
-    background-color: #24262d;
+  &.skills {
+    background-color: #ece7de;
   }
-  &.skills{
-     background-color: #ece7de;
+
+  &.footer {
+    background-color: #7115d8;
+    height: 200px;
   }
-    width: 100%;
-     height: 100vh;
-     color: #fff;
+  width: 100%;
+  height: 100vh;
+  color: #fff;
 }
 </style>
