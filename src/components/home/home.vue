@@ -1,10 +1,9 @@
 <template>
   <div class="hello">
     <section class="home">
-      <div class="row-wbd">
+      <div class="row-wbd-centered">
         <div class="header">Front End Developer</div>
         <div class="lead">Jan Kowalski</div>
-        {{message}}
         <mouse-scroll></mouse-scroll>
       </div>
     </section>
@@ -37,22 +36,12 @@ section {
   height: 100vh;
   color: #fff;
 }
-.row-wbd {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  height: 100vh;
-  color: #24262d;
-
-  & .header {
+   .header {
     font-size: 3rem;
   }
-
-  & .lead {
+  .lead {
     font-size: 2rem;
     opacity: 0.5;
     font-weight: 100;
   }
-}
 </style>

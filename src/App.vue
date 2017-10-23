@@ -15,6 +15,8 @@ export default {
 @import url("../node_modules/normalize.css/normalize.css");
 @import url("../node_modules/reset.css/reset.css");
 
+
+
 #app {
   font-family: "Dosis", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -26,8 +28,14 @@ body {
   margin: 0;
 }
 
-.row-wbd {
+.row-wbd-centered {
   padding-left: 15px;
   padding-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  color: #24262d;
 }
 </style>

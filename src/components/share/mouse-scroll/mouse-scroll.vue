@@ -11,7 +11,7 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
- @-webkit-keyframes scroll {
+@-webkit-keyframes scroll {
   0% {
     -webkit-transform: translateY(0);
   }
