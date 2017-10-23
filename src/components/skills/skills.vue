@@ -4,8 +4,8 @@
 
 <script>
 export default {
-  name: "app-skills"
-};
+  name: 'app-skills'
+}
 </script>
 <style lang="scss" scoped>
 section.skills {
