@@ -8,9 +8,9 @@
 </template>
 <script>
 
-import About from './app-about.vue';
-import Skills from './app-skills.vue';
-import AppFooter from './app-footer.vue';
+import About from './about.vue';
+import Skills from './skills.vue';
+import AppFooter from './footer.vue';
 
 export default {
   components: {
@@ -18,7 +18,7 @@ export default {
     Skills,
     AppFooter
   },
-  name: "app-home"
+  name: "home"
 };
 </script>
 <style lang="scss" scoped>
