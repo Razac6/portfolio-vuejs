@@ -1,6 +1,10 @@
 <template>
   <div class="hello">
-    <section class="home"></section>
+    <section class="home">
+      <div class="row-wbd">
+        <h1>test</h1>
+      </div>
+    </section>
      <about></about> 
     <skills></skills>
     <app-footer></app-footer>

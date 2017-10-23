@@ -1,8 +1,8 @@
 {
   "name": "portfolio-vuejs",
   "version": "1.0.0",
-  "description": "A Vue.js project",
-  "author": "Marcin Binek <marcin.binek@summer.agency>",
+  "description": "Portfolio Vue.js project",
+  "author": "Marcin Binek <hello@webbd.pl>",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
@@ -60,7 +60,9 @@
     "webpack-bundle-analyzer": "^2.9.0",
     "webpack-dev-middleware": "^1.12.0",
     "webpack-hot-middleware": "^2.18.2",
-    "webpack-merge": "^4.1.0"
+    "webpack-merge": "^4.1.0",
+    "normalize":"0.3.1",
+    "reset-css":"2.2.1"
   },
   "engines": {
     "node": ">= 4.0.0",
