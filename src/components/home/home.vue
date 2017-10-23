@@ -14,11 +14,10 @@
   </div>
 </template>
 <script>
-
-import About from '../about/about.vue';
-import Skills from '../skills/skills.vue';
-import AppFooter from '../footer/footer.vue';
-import MouseScroll from '../share/mouse-scroll/mouse-scroll.vue';
+import About from "../about/about.vue";
+import Skills from "../skills/skills.vue";
+import AppFooter from "../footer/footer.vue";
+import MouseScroll from "../share/mouse-scroll/mouse-scroll.vue";
 export default {
   components: {
     About,
@@ -26,7 +25,7 @@ export default {
     AppFooter,
     MouseScroll
   },
-  name: "home",
+  name: "home"
 };
 </script>
 <style lang="scss" scoped>
@@ -38,7 +37,7 @@ section {
   height: 100vh;
   color: #fff;
 }
-.row-wbd{
+.row-wbd {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -46,17 +45,14 @@ section {
   height: 100vh;
   color: #24262d;
 
-  & .header{
+  & .header {
     font-size: 3rem;
   }
 
-  & .lead{
+  & .lead {
     font-size: 2rem;
     opacity: 0.5;
     font-weight: 100;
   }
-
- 
-
 }
 </style>
